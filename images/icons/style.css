@@ -15,12 +15,8 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
-.icon-envelope {
+.icon-envelope-hover {
   width: 1.3330078125em;
-}
-
-.icon-smartphone {
-  width: 0.625em;
 }
 
 .icon-group {
@@ -45,4 +41,8 @@ Single-colored icons can be modified like so:
 
 .icon-group-5 {
   width: 2.0888671875em;
+}
+
+.icon-smartphone {
+  width: 0.625em;
 }

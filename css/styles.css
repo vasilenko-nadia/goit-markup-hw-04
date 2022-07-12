@@ -8,6 +8,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: var(--primary_text-color);
+  color: var(--secondary-light-txt);
 }
 
 h1,
@@ -33,19 +34,6 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-.benefits-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .about {
@@ -127,6 +115,10 @@ img {
   color: var(--title-color);
 }
 
+.icon-contacte {
+  fill: currentColor;
+}
+
 .header-list-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -157,6 +149,10 @@ img {
 .service {
   background: #2f303a;
   height: 600px;
+  background-image: url(../images/hero-bg/Img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero {
@@ -240,6 +236,17 @@ img {
   width: 270px;
 }
 
+.feature-icon {
+  display: flex;
+  margin-bottom: 30px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.icons {
+  margin: 25px auto;
+}
+
 .work {
   font-weight: 700;
   font-size: 36px;
@@ -248,6 +255,18 @@ img {
   letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 50px;
+}
+
+.benefits-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.cards {
+  background-color: white;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team {
@@ -289,6 +308,79 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-bottom: 16px;
+}
+
+.team-soclinks {
+  display: flex;
+  list-style: none;
+}
+
+.team-logo:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: white;
+  border-radius: 50%;
+  fill: #afb1b8;
+}
+
+.social-link:hover .icon-social,
+.social-link:focus .icon-social {
+  fill: white;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: #2196f3;
+}
+
+.clients {
+  margin-bottom: 94px;
+}
+
+.clients-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+  margin-top: 94px;
+}
+
+.clients-list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.clients-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #afb1b8;
+  width: 170px;
+  height: 92px;
+}
+
+.clients-item:hover .clients-link,
+.clients-item:focus .clients-link {
+  fill: #2196f3;
+}
+
+.clients-item:hover {
+  border-color: #2196f3;
 }
 
 .footer {
@@ -320,6 +412,14 @@ img {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-contacts {
@@ -358,4 +458,53 @@ img {
   border-bottom: 1px solid #ececec;
   border-left: 1px solid #ececec;
   border-right: 1px solid #ececec;
+}
+
+.footer-socials {
+  margin-left: 72px;
+  align-self: flex-start;
+  justify-self: center;
+}
+
+.footer-socials-caption {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.footer-icon-wrapper {
+  display: flex;
+}
+
+.footer-icon-link {
+  display: flex;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-icon {
+  margin: auto auto;
+  fill: white;
+}
+
+.footer-icon-link:hover,
+.footer-icon-link:focus {
+  background-color: #2196f3;
+}
+
+.footer-logo {
+  display: flex;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
