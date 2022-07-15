@@ -243,6 +243,7 @@ img {
   margin-bottom: 30px;
   background: #f5f4fa;
   border-radius: 4px;
+  height: 120px;
 }
 
 .icons {
@@ -365,9 +366,10 @@ img {
   list-style: none;
   gap: 30px;
   margin: 0;
+  padding: 0;
 }
 
-.clients-item {
+.clients-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -378,12 +380,12 @@ img {
   height: 92px;
 }
 
-.clients-item:hover .clients-link,
-.clients-item:focus .clients-link {
+.clients-link:hover,
+.clients-link:focus {
   fill: #2196f3;
 }
 
-.clients-item:hover {
+.clients-link:hover {
   border-color: #2196f3;
 }
 
