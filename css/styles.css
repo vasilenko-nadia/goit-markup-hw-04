@@ -240,15 +240,12 @@ img {
 
 .feature-icon {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
   background: #f5f4fa;
   border-radius: 4px;
   height: 120px;
-}
-
-.icons {
-  display: flex;
-  margin: auto;
 }
 
 .work {
@@ -391,6 +388,8 @@ img {
 
 .footer {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .list2 {
@@ -413,11 +412,6 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
-}
-
-.footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .footer-center {
@@ -486,6 +480,16 @@ img {
   margin-left: 72px;
   align-self: flex-start;
   justify-self: center;
+  list-style: none;
+}
+
+.footer-center2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .footer-socials-caption {
@@ -497,10 +501,6 @@ img {
   text-transform: uppercase;
   color: white;
   margin-bottom: 20px;
-}
-
-.footer-icon-wrapper {
-  display: flex;
 }
 
 .footer-icon-link {
